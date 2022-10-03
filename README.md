@@ -1,6 +1,6 @@
 # Old-Disnety-ATC-Script
 
-No longer works due to changes to the Disney Website, however is a great display of how to create an automatic add to cart function for a wesbite with very basic security.
+No longer works due to changes to the Disney Website, however is a great display of how to create an automatic add to cart function for a wesbite with very basic security. Most low traffic online stores' only major security is a CSRF token, this program uses cheerio to scrape the token and cookieJar to store the necassary cookies to make a request to add an item to your cart. It then logs a checkout URL to the console. This program can be used in combination with threading to gain a strong advantage over a manual user during a limited release drop.
 
  
  ## How does it work??
